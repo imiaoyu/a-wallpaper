@@ -15,7 +15,7 @@ module.exports = (req, res) => {
         pathRewrite: {
             // 通过路径重写，去除请求路径中的 `/backend`
             // 例如 /backend/user/login 将被转发到 https://fanyi-api.baidu.com/user/login
-            '^/backend/': '/',
+            '^/imglist/': '/',
         },
     })(req, res)
 }
